@@ -1,0 +1,19 @@
+# Ambiente virtual do Python
+.venv/
+env/
+venv/
+
+# Ficheiros compilados do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ficheiros de configuração do VS Code / VSCodium (opcional, mas recomendado)
+.vscode/
+
+# Bases de dados locais de teste ou SQLite
+*.sqlite3
+*.db
+
+# Ficheiros de ambiente (chaves de API secretas)
+.env

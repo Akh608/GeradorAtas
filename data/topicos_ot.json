@@ -1,0 +1,147 @@
+[
+  {
+    "id": "TOP-01",
+    "titulo": "Análise de pedidos de esclarecimentos",
+    "rotulo_quantidade": "Número de pedidos de esclarecimento apresentados:",
+    "campos_repetiveis": [
+      {
+        "id": "interessado",
+        "label": "Interessado que apresentou:",
+        "tipo": "text_area"
+      },
+      {
+        "id": "tipo_pedido",
+        "label": "Tipo de pedido:",
+        "tipo": "select",
+        "opcoes": ["Esclarecimentos", "Lista de Erros e Omissões"]
+      },
+      {
+        "id": "apresentado_no_prazo",
+        "label": "Apresentado dentro do prazo?",
+        "tipo": "radio",
+        "opcoes": ["Sim", "Não"]
+      },
+      {
+        "id": "resposta_tecnica",
+        "label": "Resposta Técnica do Júri:",
+        "tipo": "text_area"
+      }
+    ],
+    "campos_globais": [
+      {
+        "id": "alterou_documentos",
+        "label": "Foram alterados documentos procedimentais?",
+        "tipo": "radio",
+        "opcoes": ["Não", "Sim"]
+      },
+      {
+        "id": "alterou_aspetos_fundamentais",
+        "label": "Foram alterados aspetos fundamentais do procedimento?",
+        "tipo": "radio",
+        "opcoes": ["Não", "Sim"]
+      },
+      {
+        "id": "prorrogou_prazo",
+        "label": "Foi prorrogado o prazo para apresentação das propostas?",
+        "tipo": "radio",
+        "opcoes": ["Não", "Sim"]
+      },
+      {
+        "id": "anexos",
+        "label": "Identificação dos documentos a anexar:",
+        "tipo": "text_input"
+      }
+    ]
+  },
+  {
+    "id": "TOP-02",
+    "titulo": "Abertura, análise e avaliação de propostas",
+    "rotulo_quantidade": "Número de interessados que apresentaram documentos:",
+    "campos_repetiveis": [
+      {
+        "id": "nome_concorrente",
+        "label": "Nome / Identificação do Concorrente:",
+        "tipo": "text_input"
+      },
+      {
+        "id": "pediu_esclarecimentos",
+        "label": "Foram solicitados esclarecimentos a este concorrente?",
+        "tipo": "radio",
+        "opcoes": ["Não", "Sim"]
+      },
+      {
+        "id": "decisao_admissao",
+        "label": "Decisão do Júri quanto à proposta:",
+        "tipo": "select",
+        "opcoes": ["Admitida", "Excluída"]
+      },
+      {
+        "id": "fundamentacao_exclusao",
+        "label": "Fundamentação da exclusão (se aplicável):",
+        "tipo": "text_area"
+      },
+      {
+        "id": "pontuacao_avaliacao",
+        "label": "Avaliação / Pontuação atribuída (se admitida):",
+        "tipo": "text_input"
+      }
+    ],
+    "campos_globais": [
+      {
+        "id": "relatorio_preliminar_anexo",
+        "label": "Documento do Relatório Preliminar a anexar:",
+        "tipo": "text_input"
+      },
+      {
+        "id": "data_pub_plataforma",
+        "label": "Data e hora de publicação na plataforma:",
+        "tipo": "text_input"
+      }
+    ]
+  },
+  {
+    "id": "TOP-03",
+    "titulo": "Audiência prévia e relatório final",
+    "rotulo_quantidade": "Número de pronúncias apresentadas em Audiência Prévia (0 se nenhuma):",
+    "campos_repetiveis": [
+      {
+        "id": "autor_pronuncia",
+        "label": "Autor da Pronúncia / Alegações:",
+        "tipo": "text_input"
+      },
+      {
+        "id": "ficheiro_anexo",
+        "label": "Documento / Ficheiro anexado:",
+        "tipo": "text_input"
+      },
+      {
+        "id": "resumo_alegacoes",
+        "label": "Resumo das alegações apresentadas:",
+        "tipo": "text_area"
+      },
+      {
+        "id": "parecer_juri",
+        "label": "Pronúncia / Parecer do Júri:",
+        "tipo": "text_area"
+      },
+      {
+        "id": "altera_ordenacao",
+        "label": "A análise altera a ordenação das propostas?",
+        "tipo": "radio",
+        "opcoes": ["Não", "Sim"]
+      }
+    ],
+    "campos_globais": [
+      {
+        "id": "data_pub_relatorio_anterior",
+        "label": "Data de publicação do Relatório Preliminar:",
+        "tipo": "text_input"
+      },
+      {
+        "id": "data_fim_audiencia_previa",
+        "label": "Data de termo da Audiência Prévia:",
+        "tipo": "text_input"
+      }
+    ]
+  }
+]

@@ -1,3 +1,10 @@
+# Ficheiros da app a ignorar
+.streamlit/secrets.toml
+data/atas.json
+data/utilizadores.json
+data/procedimentos.json
+
+
 # Ambiente virtual do Python
 .venv/
 env/

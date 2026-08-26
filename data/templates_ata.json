@@ -1,0 +1,13 @@
+{
+  "abertura": "Aos {data_reuniao}, pelas {hora_inicio} horas, reuniu {presencial_ou_remoto} o Júri do procedimento com a referência {procedimento_id}, referente a \"{procedimento_designacao}\", designado por deliberação da entidade adjudicante {entidade}.\nEstiveram presentes os seguintes membros do Júri:\n- Presidente: {juri_presidente}\n- 1.º Vogal: {juri_vogal1}\n- 2.º Vogal: {juri_vogal2}\n\nA reunião teve como objetivo deliberar sobre os pontos constantes da Ordem de Trabalhos infra descrita.",
+
+  "topicos": {
+    "TOP-01": "### PONTO {ponto_num}: ANÁLISE DE PEDIDOS DE ESCLARECIMENTOS\nNo âmbito da análise dos pedidos apresentados pelos interessados, registou-se a entrada de {qtd_itens} pedido(s).\n{detalhes_pedidos}\nEm resultado da análise efetuada, o Júri deliberou {alterou_documentos} a alteração de documentos procedimentais e {prorrogou_prazo} a prorrogação do prazo para apresentação de propostas.\nDeliberação tomada {votacao_tipo}{voto_vencido_texto}.",
+
+    "TOP-02": "### PONTO {ponto_num}: ABERTURA, ANÁLISE E AVALIAÇÃO DE PROPOSTAS\nSubmeteram documentos dentro do prazo fixado um total de {qtd_itens} concorrente(s), a saber:\n{detalhes_concorrentes}\nApós verificação formal dos documentos, o Júri deliberou fixar as classificações constantes da lista de avaliação, ordenando as propostas e procedendo à elaboração do Relatório Preliminar.\nFoi determinado proceder à publicação do referido Relatório na plataforma eletrónica a {data_pub_plataforma}.\nDeliberação tomada {votacao_tipo}{voto_vencido_texto}.",
+
+    "TOP-03": "### PONTO {ponto_num}: AUDIÊNCIA PRÉVIA E RELATÓRIO FINAL\nDecorrido o prazo legal de Audiência Prévia, cujo termo ocorreu a {data_fim_audiencia_previa}, constatou-se que {detalhes_pronuncias}.\nEm face do exposto, o Júri deliberou aprovar a ordenação final das propostas e propor à entidade adjudicante a adjudicação do procedimento nos termos expostos no Relatório Final.\nDeliberação tomada {votacao_tipo}{voto_vencido_texto}."
+  },
+
+  "encerramento": "E nada mais havendo a tratar, a reunião foi encerrada pelas {hora_fim} horas, da qual se lavrou a presente ata que, depois de lida e aprovada, vai ser assinada eletronicamente pelos membros do Júri."
+}
